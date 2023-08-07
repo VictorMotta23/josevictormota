@@ -32,3 +32,15 @@ print(lista2)
 #Remover item específico da lista
 lista2.remove('coxinha')
 print(lista2)
+#Copiar referência
+lista3 = pc
+#Copiar objeto
+lista4 = pc.copy()
+print("lista 3",lista3)
+print("lista 4",lista4)
+pc.append("SSD")
+pc.append("Teclado")
+print(lista3)
+lista3.append("Placa de vídeo")
+print(lista4)
+print(pc)
