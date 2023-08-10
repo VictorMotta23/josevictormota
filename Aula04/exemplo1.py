@@ -20,6 +20,7 @@ while a<=b:
     a += 1
 
 print("\nO resultado é:", ac)
+
 #Leia 2 valores e mostre a soma do intervalo entre eles
 v1 = int(input("Informe o valor inicial:"))
 v2 = int(input("Informe o valor final:"))
@@ -60,6 +61,7 @@ while cont<=5:
     ac += valor
     cont += 1
 print(f"O resultado da soma é {ac}")
+
 #Leia 3 notas e mostre a média, caso seja digitado um valor negativo ou acima de 10 será solicitado um novo valor
 soma = 0
 cont = 1
